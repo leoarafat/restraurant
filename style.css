@@ -1,0 +1,211 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    background-color: #eee;
+}
+.header-image img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.header-image{
+    line-height: 70px;
+}
+header{
+    background-color:#254e56 ;
+    padding: 10px;
+    text-align: center;
+}
+nav ul li{
+    display: block;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    line-height: 70px;
+    padding: 0px 20px;
+    transition: .4s;
+}
+nav ul li a:hover{
+    background-color: #404040;
+    border-radius: 10px;
+}
+#banner-section{
+    background-image: url(image/pat__-KveL_hxuY0Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50PX;
+    text-align: center;
+}
+.banner-content{
+   color: white;
+   line-height: 50px;
+}
+.banner-heading{
+    background-color: #ffe400;
+    border-radius: 10px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+   color: black;
+}
+.btn{
+    border: none;
+    padding: 10px;
+    background-color: #f13c20;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+.btn:hover{
+   transform: scale(1.1);
+}
+#About-us{
+    text-align: center;
+    padding: 20px;
+    
+}
+.about-content p{
+    text-align: center;
+    line-height: 30px;
+    font-size: 0.8rem;
+}
+#food-menu{
+
+
+}
+.card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.card{
+width: 400px;
+text-align: center;
+box-shadow: 1px 2px 4px gray;
+transition: .4s;
+margin: 20px;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.card-body{
+background-color: rgb(60, 179, 113);
+color: white;
+padding: 10px;
+
+}
+.food-image{
+    width: 100%;
+    
+}
+.food-item{
+    background-color: #ffe400;
+    border-radius: 5px;
+    padding: 10px;
+    color: black;
+}
+#contact{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #1f2833;
+    color: white;
+    margin-bottom: 10px;
+}
+article{
+
+}
+aside{
+    
+}
+.map{
+    width: 100%;
+    height: 250px;
+    box-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+footer{
+    background-color: black ;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media screen and (min-width:992px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+    .header-image{
+        width: 50%;
+        text-align: left;
+        
+    }
+    .header-image img{
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+    }
+    nav{
+        width: 50%;
+    }
+    
+    #navbar li{
+        display: inline-block;
+    }
+    nav ul li a:hover{
+      background-color: rgb(60, 179, 13);  
+
+    }
+    nav ul li a{
+        line-height: 20px;
+        padding: 10px;
+    }
+    .banner-heading{
+        display: inline;
+        padding: 10px 50px;
+        font-size: 2rem;
+    }
+    #banner-section{
+        padding: 100px;
+    }
+    .banner-heading-2{
+        font-size: 1.4rem;
+    }
+    .card-section{
+        flex-direction: row;
+    }
+    #contact{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 30px;
+    }
+    article{
+        width: 65%;
+    }
+    aside{
+        width: 35%;
+    }
+    .map{
+        width: 100%;
+        height: 250px;
+    }
+}
